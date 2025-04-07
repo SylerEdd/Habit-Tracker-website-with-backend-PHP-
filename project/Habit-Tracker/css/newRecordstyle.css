@@ -1,0 +1,154 @@
+/* General Styles */
+:root {
+    --darkorange: #ff8c00;
+  }
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: 0.2s linear;
+  }
+  html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    scroll-padding-top: 6rem;
+    overflow-x: hidden;
+  }
+
+/* Header Styling */
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: #ff8c00;
+    padding: 2rem 9%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+  }
+  header .logo {
+    font-size: 3rem;
+    color: #333;
+    font-weight: bolder;
+  }
+  header .logo span {
+    color: var(--black);
+  }
+  header .navbar a {
+    font-size: 2rem;
+    padding: 0 1rem;
+    color: #666;
+    margin: 0 1rem;
+  }
+  header .navbar a:hover {
+    color: rgb(224, 219, 213);
+  }
+
+
+
+/* Form Styling */
+
+form {
+    background-color: whitesmoke;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 90%;
+    max-width: 500px;
+    margin: auto; /* Centers the form horizontally */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Centers the form vertically */
+}
+form legend{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 15px;
+}
+form label{
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    font-size: small;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input, select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+button {
+    background-color: #FF8C00;
+    color: white;
+    border: none;
+    padding: 12px 15px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    transition: all 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: rgb(198, 120, 25);
+    transform: scale(1.05);
+}
+button a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+/* Responsive Design */
+@media (max-width: 991px) {
+    html {
+      font-size: 55%;
+    }
+    header {
+      padding: 2rem;
+    }
+  }
+  @media (max-width: 768px) {
+    header .navbar {
+      position: absolute;
+      top: 100%;
+      left: 0;
+      right: 0;
+      background: #ff8c00;
+      border-top: 0.1rem solid black(0, 0, 0, 0.1);
+    }
+    header .navbar a {
+      margin: 1.5rem;
+      padding: 1.5rem;
+      background: white;
+      border: 1rem solid black(0, 0, 0, 0.1);
+      display: block;
+    }
+  }
+  @media (max-width: 450px) {
+    html {
+      font-size: 50%;
+    }
+  }

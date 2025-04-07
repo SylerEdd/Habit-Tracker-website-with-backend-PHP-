@@ -1,0 +1,124 @@
+
+:root {
+    --primary-color: #ff8c00;    
+    --secondary-color: #ffa500; 
+    --bg-color: #f7f7f7;           
+    --form-bg: #ffffff;          
+    --text-color: #333;           
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  body {
+    background: var(--secondary-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    color: var(--text-color);
+    padding: 20px;
+  }
+  
+  .container {
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: var(--text-color);
+  }
+  
+  form {
+    background: var(--form-bg);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+  
+  
+  .form-floating {
+    position: relative;
+    margin-bottom: 15px;
+  }
+  
+  .form-floating input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    background: transparent;
+    outline: none;
+  }
+  
+  .form-floating label {
+    position: absolute;
+    top: 50%;
+    left: 12px;
+    transform: translateY(-50%);
+    background: var(--form-bg);
+    padding: 0 5px;
+    pointer-events: none;
+    transition: 0.2s ease-in-out;
+    font-size: 1rem;
+    color: #777;
+  }
+  
+  .form-floating input:focus + label,
+  .form-floating input:not(:placeholder-shown) + label {
+    top: -10px;
+    font-size: 0.85rem;
+    color: var(--primary-color);
+  }
+  
+
+  .btn {
+    display: inline-block;
+    width: 100%;
+    padding: 12px;
+    background: var(--primary-color);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.2s ease-in-out;
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .btn:hover {
+    background: #e69500;
+  }
+  
+ 
+  .error {
+    background: #ffcccc;
+    color: #cc0000;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+ 
+  a.signup-link {
+    display: block;
+    text-align: center;
+    margin-top: 15px;
+    color: #333;  
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  a.signup-link:hover {
+    text-decoration: underline;
+  }
+  
