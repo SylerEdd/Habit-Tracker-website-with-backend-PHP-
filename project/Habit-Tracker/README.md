@@ -37,23 +37,5 @@ Conclusion
 
 This documentation outlines the client-side components of the Habit tracker. Each page of the habit tracker is designed to make it easy to use and accessible for everyone, ensuring a smooth experience.New feature may include in the future.
 
-Authors of the application:
 
-Student Name: Chioma Ochulo, Roshna Roby, Gaspar Munoz
-Student Number:3158894, 3132445, 3158529
-
-Contribution of each Member:indexnotify.css -->Chioma
-                            indexprofile2.css--> Chioma, Gaspar
-                            main_welcome.css --> Gaspar
-                            newRecordstyle.css-->Gaspar
-                            style.css--->Roshna, Gaspar
-                            README.md-->Roshna
-                            habit.html-->Gaspar
-                            Home--> Roshna
-                            index-->Chioma, Gaspar
-                            indexprofile2-->Chioma, Gaspar
-                            newRecord.html--> Gaspar
-                            notify.html--> Chioma
-                            signup.html--->Chioma, Gaspar
-   
   
