@@ -106,8 +106,7 @@
             }
             $query->close();
         }
-        // Close DB connection
-        mysqli_close($db_connection);
+       
     }
     ?>
 
